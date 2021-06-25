@@ -11,6 +11,11 @@
 		82750F1526825269008E0BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82750F1426825269008E0BAB /* ContentView.swift */; };
 		82750F172682526B008E0BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82750F162682526B008E0BAB /* Assets.xcassets */; };
 		82750F1A2682526B008E0BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82750F192682526B008E0BAB /* Preview Assets.xcassets */; };
+		82750F2226827264008E0BAB /* quizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82750F2126827264008E0BAB /* quizView.swift */; };
+		82750F242682920F008E0BAB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82750F232682920F008E0BAB /* Question.swift */; };
+		82750F272684FE2E008E0BAB /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82750F262684FE2E008E0BAB /* LogoView.swift */; };
+		82750F2C2684FF35008E0BAB /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82750F2B2684FF35008E0BAB /* Logo.swift */; };
+		82750F2E26852D4B008E0BAB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82750F2D26852D4B008E0BAB /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		82750F162682526B008E0BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82750F192682526B008E0BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82750F1B2682526B008E0BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82750F2126827264008E0BAB /* quizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizView.swift; sourceTree = "<group>"; };
+		82750F232682920F008E0BAB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		82750F262684FE2E008E0BAB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		82750F2B2684FF35008E0BAB /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		82750F2D26852D4B008E0BAB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,14 @@
 			children = (
 				82750F1226825269008E0BAB /* _000s_TV_QuizApp.swift */,
 				82750F1426825269008E0BAB /* ContentView.swift */,
+				82750F232682920F008E0BAB /* Question.swift */,
+				82750F2B2684FF35008E0BAB /* Logo.swift */,
+				82750F262684FE2E008E0BAB /* LogoView.swift */,
+				82750F2D26852D4B008E0BAB /* QuestionView.swift */,
+				82750F2126827264008E0BAB /* quizView.swift */,
 				82750F162682526B008E0BAB /* Assets.xcassets */,
 				82750F1B2682526B008E0BAB /* Info.plist */,
+				82750F252684F667008E0BAB /* images */,
 				82750F182682526B008E0BAB /* Preview Content */,
 			);
 			path = "2000s TV Quiz";
@@ -67,6 +83,13 @@
 				82750F192682526B008E0BAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82750F252684F667008E0BAB /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82750F272684FE2E008E0BAB /* LogoView.swift in Sources */,
 				82750F1526825269008E0BAB /* ContentView.swift in Sources */,
+				82750F242682920F008E0BAB /* Question.swift in Sources */,
+				82750F2E26852D4B008E0BAB /* QuestionView.swift in Sources */,
+				82750F2226827264008E0BAB /* quizView.swift in Sources */,
+				82750F2C2684FF35008E0BAB /* Logo.swift in Sources */,
 				82750F1326825269008E0BAB /* _000s_TV_QuizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
